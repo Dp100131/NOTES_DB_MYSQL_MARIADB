@@ -35,3 +35,5 @@ NOT NULL: El campo no puede ser nulo.
 *UPDATE_AT*: Guarda en qué momento fue editado por última vez el registro.
 
 *TIMESTAMP*: Guarda marcas de tiempo en el formato 'aaaa-MM-dd HH:mm:ss' (También existe DATETIME y tienen algunas diferencias muy específicas)*
+
+*Location: Point*: para puntos en el espacio, bueno para calcular distancias.
