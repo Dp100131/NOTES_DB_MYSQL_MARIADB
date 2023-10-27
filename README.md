@@ -37,3 +37,19 @@ NOT NULL: El campo no puede ser nulo.
 *TIMESTAMP*: Guarda marcas de tiempo en el formato 'aaaa-MM-dd HH:mm:ss' (También existe DATETIME y tienen algunas diferencias muy específicas)*
 
 *Location: Point*: para puntos en el espacio, bueno para calcular distancias.
+
+## **CREATE DATABASE**
+```
+CREATE DATABASE database_name;
+```
+## **CREATE TABLE**
+```
+USE database_name;
+CREATE TABLE `table_name`{
+    `Column_name` TYPE ATTRIBUTES,
+
+    PRIMARY KEY(column_name)
+}
+CHARSET= charset_type
+COLLATE= collate_type
+```
