@@ -53,3 +53,16 @@ CREATE TABLE `table_name`{
 CHARSET= charset_type
 COLLATE= collate_type
 ```
+## **EXECUTE QUERY**
+```
+mysql -u root -p
+```
+## **SHOW**
+```
+SHOW DATABASES;
+```
+## **EXCUTE FILES.sql**
+```
+mysql < 1-create-database.sql
+mysql < FILE_NAME
+```
