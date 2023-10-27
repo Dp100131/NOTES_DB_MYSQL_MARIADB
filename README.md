@@ -56,6 +56,7 @@ COLLATE= collate_type
 ## **EXECUTE QUERY**
 ```
 mysql -u root -p
+mysql -u root -p
 ```
 ## **SHOW**
 ```
@@ -67,6 +68,7 @@ mysql < 1-create-database.sql
 mysql < FILE_NAME
 ```
 ## ***CREATE USER***
+user: dp011031
 ```
 CREATE USER 'username'@'localhost';
 ```
@@ -79,4 +81,6 @@ ON
     databases.tables
 TO
     user;
+
+FLUSH PRIVILEGES;
 ```
