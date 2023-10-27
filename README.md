@@ -84,3 +84,11 @@ TO
 
 FLUSH PRIVILEGES;
 ```
+## **ALTER TABLE**
+```
+USE database_name;
+
+ALTER TABLE `table_name`
+MODIFY `column_name` MODIFICATIONS,
+ADD PRIMARY KEY(column_name)
+```
