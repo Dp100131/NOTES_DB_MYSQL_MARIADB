@@ -66,3 +66,17 @@ SHOW DATABASES;
 mysql < 1-create-database.sql
 mysql < FILE_NAME
 ```
+## ***CREATE USER***
+```
+CREATE USER 'username'@'localhost';
+```
+## **GRANT**
+[GRANT](https://mariadb.com/kb/en/grant/#grant-option)
+```
+GRANT
+    privileges
+ON
+    databases.tables
+TO
+    user;
+```
