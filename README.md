@@ -102,3 +102,5 @@ INSERT INTO `table_name`
 (VALUES2),
 (VALUES3);
 ```
+
+## **UPDATE**
