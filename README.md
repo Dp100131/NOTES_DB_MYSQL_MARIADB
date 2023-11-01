@@ -92,3 +92,13 @@ ALTER TABLE `table_name`
 MODIFY `column_name` MODIFICATIONS,
 ADD PRIMARY KEY(column_name)
 ```
+### DESCRIBE  table_name;
+
+## **INSERT INTO**
+```
+INSERT INTO `table_name`
+(col1, col2, col3, ... , coln) VALUES
+(VALUES1),
+(VALUES2),
+(VALUES3);
+```
