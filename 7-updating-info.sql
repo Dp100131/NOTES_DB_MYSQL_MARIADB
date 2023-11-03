@@ -2,19 +2,19 @@ USE `metro_cdmx`;
 
 UPDATE `stations`
 SET name = "Lázaro Cárdenas"
-WHERE id = 1;
+WHERE id = 167;
 
 UPDATE `stations`
 SET name = "Ferrería"
-WHERE id = 2;
+WHERE id = 168;
 
 UPDATE `stations`
-SET name = "Pantitlán" WHERE id = 3;
+SET name = "Pantitlán" WHERE id = 169;
 
 UPDATE `stations`
-SET name = "Tacuba" WHERE id = 4;
+SET name = "Tacuba" WHERE id = 170;
 
 UPDATE `stations`
-SET name = "Martín Carrera" WHERE id = 5;
+SET name = "Martín Carrera" WHERE id = 171;
 
 SELECT * FROM `stations`;

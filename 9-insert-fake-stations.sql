@@ -1,7 +1,4 @@
-USE metro_cdmx;
-
--- Inserta las estaciones del metro
-INSERT INTO `stations` (name) VALUES
+INSERT INTO `stations_delete` (name) VALUES
 ("Lázaro Cárdens"), -- Lázaro Cárdenas
 ("Ferería"), -- Ferrería 
 ("Pnttlán"), -- Pantitlán
@@ -169,5 +166,3 @@ INSERT INTO `stations` (name) VALUES
 ("Merced"),
 ("Lázaro de Guerrero"),
 ("Benito Cárdenas");
-SELECT * FROM `stations`;
-DELETE FROM `stations`;

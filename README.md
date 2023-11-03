@@ -104,3 +104,13 @@ INSERT INTO `table_name`
 ```
 
 ## **UPDATE**
+
+## **DELETE | TRUNCATE**
+Eliminar los registros de una tabla
+```
+DELETE FROM `table_name`;
+```
+Eliminar los registros de una tabla reiniciando los IDs
+```
+TRUNCATE FROM `table_name`;
+```
