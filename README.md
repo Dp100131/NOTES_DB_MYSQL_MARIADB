@@ -104,7 +104,10 @@ INSERT INTO `table_name`
 ```
 
 ## **UPDATE**
-
+```
+UPDATE `stations`
+SET name = "Martín Carrera" WHERE id = 171;
+```
 ## **DELETE | TRUNCATE**
 Eliminar los registros de una tabla
 ```
@@ -113,4 +116,8 @@ DELETE FROM `table_name`;
 Eliminar los registros de una tabla reiniciando los IDs
 ```
 TRUNCATE FROM `table_name`;
+```
+## **DROP**
+```
+DROP TABLE `stations_delete`;
 ```

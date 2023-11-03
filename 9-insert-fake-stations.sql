@@ -166,3 +166,8 @@ INSERT INTO `stations_delete` (name) VALUES
 ("Merced"),
 ("Lázaro de Guerrero"),
 ("Benito Cárdenas");
+
+SELECT * from `stations_delete`
+
+-- UPDATE `stations_delete`
+-- set name = "Lázaro Cárdenas" WHERE id = 1
